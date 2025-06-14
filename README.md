@@ -11,11 +11,11 @@ The project focuses on analyzing sales data to uncover trends, top-performing pr
 
 ## Steps in the Analysis
 
-### 1. Data Acquisition
+### 1. Extract
 - Download dataset from Kaggle using Python API
 - Extract CSV file from ZIP archive
 
-### 2. Data Cleaning & Transformation
+### 2. Transform
 - Handle missing values in 'ship_mode' column
 - Standardize column names (lowercase with underscores)
 - Create new calculated columns:
@@ -25,11 +25,11 @@ The project focuses on analyzing sales data to uncover trends, top-performing pr
 - Convert 'order_date' to proper datetime format
 - Remove unnecessary columns
 
-### 3. Database Integration
+### 3. Load
 - Create SQL Server table with optimized data types
 - Load processed data into SQL Server
 
-### 4. Data Analysis (SQL Queries)
+####  Data Analysis (SQL Queries)
 1. **Top 10 Revenue Generating Products**  
    Identify highest-grossing products based on total sales
     ![Screenshot (203)](https://github.com/user-attachments/assets/6f45eacb-d498-497a-b293-d8a22316cbb5)
